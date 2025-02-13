@@ -1,1 +1,2 @@
-name=Social ; distrobox create --name $name --volume ~/.uni/hyper/distrobox/$name
+. name.sh
+distrobox create --name $name --volume ~/.uni/hyper/distrobox/$name
